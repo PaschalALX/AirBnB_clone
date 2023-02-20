@@ -1,0 +1,19 @@
+header{
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid#CCCCCC;
+    display: flex;
+}
+header::after{
+    content: url("../images/logo.png");
+    margin: auto;
+    margin-left: 20px;
+    vertical-align: baseline;
+}
+
+@media screen and (width < 500px) {
+    header::after{
+        margin: auto;
+    }
+}
